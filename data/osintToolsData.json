@@ -1,0 +1,310 @@
+{
+    "Registradores de españa": {
+        "descripcion": "​El Registro Mercantil es aquel en el que se inscriben los hechos y actos relativos a los empresarios individuales y a las sociedades mercantiles, con el fin de dar publicidad a los mismos de forma que puedan ser conocidos por las personas que contraten con ellos.",
+        "url": "https://sede.registradores.org",
+        "categoria": "empresas",
+        "input_types": ["nombre empresa", "NIF", "matrícula", "número bastidor"],
+        "output_types": ["NIF", "denominación socíal", "estado de la sociedad", "certificádos", "informes"]
+    },
+    "axesor": {
+        "descripcion": "La información más completa y actualizada sobre cualquier empresa, autónomo y ejecutivo de su interés.",
+        "url": "https://www.axesor.es/",
+        "categoria": "empresas",
+        "input_types": ["nombre", "marca", "NIF", "teléfono"],
+        "output_types": ["nombre", "dirección postal", "teléfono","CIF","forma jurídiica", "fecha constitución", "Objeto social", "CNAE", "SIC", "informes"]
+    },
+    "Informa D&B": {
+        "descripcion": "Información sobre empresas",
+        "url": "https://www.informadb.pt/es/",
+        "categoria": "empresas",
+        "input_types": ["nombre empresa", "NIF"],
+        "output_types": ["nombre", "denominación / marca", "número contribuinte", "número DUNS", "datos de contacto", "antiguedad","riesgo comercial", "informes"]
+    },
+    "DatosCIF": {
+        "descripcion": "Información de empresas y directivos de empresas españolas ",
+        "url": "https://www.datoscif.es",
+        "categoria": "empresas",
+        "input_types": ["nombre empresa", "nombre directívo"],
+        "output_types": ["municipio / provincia", "razón social", "CIF", "actividad", "teléfono", "fecha constitución","nombres anteriores", "consejo admintración", "organigrama", "vinculaciones", "cargos", "modificaciones estatutarias", "nombramientos", "revocaciones"]
+    },
+    "infoNIF": {
+        "descripcion": "Información de empresas y directivos de empresas españolas ",
+        "url": "https://infonif.economia3.com/",
+        "categoria": "empresas",
+        "input_types": ["nombre empresa", "nombre directívo", "NIF"],
+        "output_types": ["NIF", "antiguedad", "datos contacto","denominación anteriore", "registro mercantil",  "actos publicados BORME", "análisi financiero", "sector", "número de empleados", "cargos directivos", "últimas cuentas presentadas", "auditor", "información crediticia", "informes"]
+    },
+    "Have I been powned": {
+        "descripcion": "Información de brechas de datos",
+        "url": "https://haveibeenpwned.com",
+        "categoria": "data breaches",
+        "input_types": ["email"],
+        "output_types": ["data breaches"]
+    },
+    "GHunt": {
+        "descripcion": "Información de cuentas de gmail",
+        "url": "https://gmail-osint.activetk.jp",
+        "categoria": "social data",
+        "input_types": ["email"],
+        "output_types": ["imagen perfil", "fecha edicíon perfil", "Gaia ID", "tipo usuario", "reseñas"]
+    },
+    "Imginn": {
+        "descripcion": "Información de cuentas de instagram",
+        "url": "https://imginn.com/",
+        "categoria": "social data",
+        "input_types": ["cuenta instagram"],
+        "output_types": ["imagen perfil","posts", "followers", "following", "stories", "tagged"]
+    },
+    "Twitter Leaked Checker": {
+        "descripcion": "Información compromiso de cuentas de twitter",
+        "url": "https://www.activetk.jp/tools/twitter-leaked200",
+        "categoria": "data breaches",
+        "input_types": ["cuenta twitter"],
+        "output_types": ["data breaches"]
+    },
+    "Webmii": {
+        "descripcion": "Información sobre personas en internet",
+        "url": "https://webmii.com",
+        "categoria": "personal data",
+        "input_types": ["nombre", "apellido"],
+        "output_types": ["información pública"]
+    },
+    "Instant Username Search": {
+        "descripcion": "Búsqueda de usuarios en plataformas",
+        "url": "https://instantusername.com/",
+        "categoria": "social data",
+        "input_types": ["usuario"],
+        "output_types": ["cuentas activas"]
+    },
+    "WhatsMyName Web": {
+        "descripcion": "Búsqueda de usuarios en plataformas",
+        "url": "https://instantusername.com/",
+        "categoria": "social data",
+        "input_types": ["usuario"],
+        "output_types": ["cuentas activas"]
+    },
+    "Pim Eyes": {
+        "descripcion": "Búsqueda inversa de imágenes",
+        "url": "https://pimeyes.com/es",
+        "categoria": "social data",
+        "input_types": ["imagen"],
+        "output_types": ["imágenes publicadas en internet"]
+    },
+    "Intelligence X": {
+        "descripcion": "Open Source Intelligence & Forensic Tools",
+        "url": "https://intelx.io/tools",
+        "categoria": "data breaches",
+        "input_types": ["dominio","URL", "email", "IP"],
+        "output_types": ["data breaches"]
+    },
+    "SunsBase": {
+        "descripcion": "Información de brechas de datos",
+        "url": "https://www.snusbase.com/",
+        "categoria": "data breaches",
+        "input_types": ["email","usuario", "IP", "password","nombre","hash", "dominio", "teléfono"],
+        "output_types": ["data breaches"]
+    },
+    "Shodan": {
+        "descripcion": "Buscador de dispositivos conectados a internet",
+        "url": "https://www.shodan.io/",
+        "categoria": "infraestructura",
+        "input_types": ["IP","dominio", "hostname", "hash"],
+        "output_types": ["hostmanes", "dominios","país","ciudad","organización","ISP","ASN", "puertos abiertos", "vulnerabilidades"]
+    },
+    "Inteltechniques": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://inteltechniques.com/tools/",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "TinEye": {
+        "descripcion": "Búsqueda inversa de imágenes",
+        "url": "https://tineye.com/",
+        "categoria": "social data",
+        "input_types": ["imagen"],
+        "output_types": ["imágenes publicadas en internet"]
+    },
+    "Internet archive": {
+        "descripcion": "Historico de páginas web",
+        "url": "https://web.archive.org/",
+        "categoria": "web",
+        "input_types": ["url"],
+        "output_types": ["historial pagina web"]
+    },
+    "WebCheck": {
+        "descripcion": "Historico de páginas web",
+        "url": "https://web.archive.org/",
+        "categoria": "web",
+        "input_types": ["url"],
+        "output_types": ["certificados SSL","records DNS","servidores DNS", "whois", "firewall", "headers"]
+    },
+    " Messageheader": {
+        "descripcion": "Análisis de cabeceras de correos electrónicos",
+        "url": "https://toolbox.googleapps.com/apps/messageheader/analyzeheader",
+        "categoria": "herramientas",
+        "input_types": ["email header"],
+        "output_types": ["análisi cabecera email"]
+    },
+    "Social Searcher": {
+        "descripcion": "Información en redes sociales ",
+        "url": "https://www.social-searcher.com/",
+        "categoria": "social data",
+        "input_types": ["menciones", "usuario", "trends"],
+        "output_types": ["menciones", "usuario", "sentiment","publicaciones", "estadísticas"]
+    },
+    "Simple Email Reputation": {
+        "descripcion": "Reputación corrreo electrónico",
+        "url": "https://emailrep.io/",
+        "categoria": "herramientas",
+        "input_types": ["email"],
+        "output_types": ["reputación email"]
+    },
+    "OSINT Framework": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://osintframework.com/",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "Jimpl": {
+        "descripcion": "Online EXIF data viewer",
+        "url": "https://jimpl.com/",
+        "categoria": "herramientas",
+        "input_types": ["imagen"],
+        "output_types": ["matadatos"]
+    },
+    "Google dorks": {
+        "descripcion": "Google Hacking Database",
+        "url": "https://www.exploit-db.com/google-hacking-database",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["docks"]
+    },
+    "theHarvester": {
+        "descripcion": "Información de dominios",
+        "url": "https://github.com/laramies/theHarvester",
+        "categoria": "herramientas",
+        "input_types": ["dominio"],
+        "output_types": ["IP", "email", "subdominios","hosts"]
+    },
+    "blackbird": {
+        "descripcion": "Búsqueda de usuarios en plataformas",
+        "url": "https://github.com/laramies/theHarvester",
+        "categoria": "herramientas",
+        "input_types": ["usuario", "email"],
+        "output_types": ["redes sociales activas"]
+    },
+    "Spyrod-v2": {
+        "descripcion": "Información sobre direcciones IP",
+        "url": "https://github.com/Euronymou5/Spyrod-v2",
+        "categoria": "herramientas",
+        "input_types": ["IP"],
+        "output_types": ["ISP","organización","ciudad","país","region / estado","latitud / longitud","CP","AS","DNS inverso"]
+    },
+    "userrecon": {
+        "descripcion": "Búsqueda de usuarios en plataformas",
+        "url": "https://github.com/wishihab/userrecon",
+        "categoria": "herramientas",
+        "input_types": ["usuario", "email"],
+        "output_types": ["redes sociales activas"]
+    },
+    "sherlock": {
+        "descripcion": "Búsqueda de usuarios en plataformas",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "categoria": "herramientas",
+        "input_types": ["usuario", "email"],
+        "output_types": ["redes sociales activas"]
+    },
+    "migret": {
+        "descripcion": "Búsqueda de usuarios en plataformas",
+        "url": "https://github.com/soxoj/maigret",
+        "categoria": "herramientas",
+        "input_types": ["usuario"],
+        "output_types": ["redes sociales activas", "uid", "imagen perfil", "información personal"]
+    },
+    "truecaller": {
+        "descripcion": "Búsqueda de datos de contacto",
+        "url": "https://www.truecaller.com",
+        "categoria": "herramientas",
+        "input_types": ["teléfono"],
+        "output_types": ["operador", "país", "propietario"]
+    },
+    "lampyre": {
+        "descripcion": "Búsqueda de información personal",
+        "url": "https://lampyre.io",
+        "categoria": "herramientas",
+        "input_types": ["emai","teléfono","usuario","IP","dominio","imágen","sanción"],
+        "output_types": ["redes sociales activas", "data breaches","reputación email","ubicación"]
+    },
+    "Export comments": {
+        "descripcion": "Exporta comentarios de redes sociales",
+        "url": "https://exportcomments.com",
+        "categoria": "herramientas",
+        "input_types": ["url"],
+        "output_types": ["comentarios", "followers", "following"]
+    },
+    "xhunt": {
+        "descripcion": "Exporta comentarios de redes sociales",
+        "url": "https://www.huntintel.io",
+        "categoria": "herramientas",
+        "input_types": ["ubicación"],
+        "output_types": ["publicaciones facebook", "publicaciones instagram", "publicaciones twitter", "publicaciones youtube"]
+    },
+    "OSINT combine": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://www.osintcombine.com/tools",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "Anonimous Instagram": {
+        "descripcion": "Visualiza información de cuentas de instagram de forma anónima",
+        "url": "https://storistalker.com",
+        "categoria": "herramientas",
+        "input_types": ["usuario"],
+        "output_types": ["publicaciones","followers", "following", "stories"]
+    },
+    "picuki": {
+        "descripcion": "Descarga contenido de ticktok",
+        "url": "https://www.picuki.com/",
+        "categoria": "herramientas",
+        "input_types": ["usuario","url"],
+        "output_types": ["posts","stories"]
+    },
+    "statista": {
+        "descripcion": "Datos e indicadores de 170 sectores de más de 150 países",
+        "url": "https://es.statista.com",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["estadisticas"]
+    },
+    "cybernews": {
+        "descripcion": "Cuentas comprometidas en brechas de datos",
+        "url": "https://cybernews.com/personal-data-leak-check",
+        "categoria": "herramientas",
+        "input_types": ["email","teléfono"],
+        "output_types": ["data breaches"]
+    },
+    "vedbex": {
+        "descripcion": "Repositorio de herramientas de red",
+        "url": "https://www.vedbex.com/home",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
+    },
+    "osint.sh": {
+        "descripcion": "Repositorio de herramientas de red",
+        "url": "https://osint.sh",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
+    },
+    "Epieos": {
+        "descripcion": "Herramineta para busqueda de información de telefonos y emails",
+        "url": "https://epieos.com/",
+        "categoria": "herramientas",
+        "input_types": ["email","teléfono"],
+        "output_types": ["información personal"]
+    }
+}
