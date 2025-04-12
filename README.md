@@ -18,7 +18,7 @@ El proyecto está diseñado para que cada investigador pueda clonar este reposit
 ## Cómo Utilizar
 
 1.  **Explorar la Colección:** La aplicación muestra los recursos OSINT en secciones desplegables, proporcionando un resumen de cada uno.
-2.  **Filtrar por Tipo de Entrada:** Utiliza el cuadro de selección múltiple "Filtrar por Input Type" para elegir los tipos de entrada que tienes disponibles. La aplicación filtrará dinámicamente la lista para mostrar solo los recursos que pueden utilizar esa entrada.
+2.  **Filtrar por Tipo de Entrada:** Utiliza el cuadro de selección múltiple "Filtrar por input" para elegir los tipos de entrada que tienes disponibles. La aplicación filtrará dinámicamente la lista para mostrar solo los recursos que pueden utilizar esa entrada.
 3.  **Explorar Detalles:** Haz clic en el título de cada recurso (la sección desplegable) para revelar información más detallada, incluyendo su descripción, URL, categoría y los tipos de entrada y salida específicos que admite.
 4.  **Acceder a los Recursos:** Utiliza la URL proporcionada para acceder directamente a la herramienta o sitio web OSINT en tu navegador web.
 
@@ -28,13 +28,13 @@ Esta aplicación está construida con Streamlit, una librería de Python que fac
 
 1.  **Regístrate en Streamlit Cloud:** Si no tienes una cuenta, regístrate en [https://streamlit.io/cloud](https://streamlit.io/cloud).
 2.  **Prepara tu repositorio:**
-    * Asegúrate de que tu código Python (archivo `.py`, p. ej., `app.py`) esté en tu repositorio de GitHub.
+    * Asegúrate de que tu código Python (archivo `.py`, p. ej., `osint_resourcesp.py`) esté en tu repositorio de GitHub.
     * Incluye un archivo `requirements.txt` en la raíz de tu repositorio que liste las librerías de Python necesarias (en este caso, al menos `streamlit` y `json`). Puedes generar este archivo ejecutando `pip freeze > requirements.txt` en tu entorno local donde tengas instaladas las dependencias de la aplicación.
     * Asegúrate de que tu archivo de datos JSON (`osintToolsData.json` en el directorio `data/` según el código) también esté presente en tu repositorio.
 3.  **Despliega en Streamlit Cloud:**
     * Ve a tu panel de control de Streamlit Cloud.
     * Haz clic en el botón "New app".
-    * Selecciona tu repositorio de GitHub, la rama y el archivo Python (`app.py`) que contiene tu aplicación Streamlit.
+    * Selecciona tu repositorio de GitHub, la rama y el archivo Python (`osint_resources.py`) que contiene tu aplicación Streamlit.
     * Especifica cualquier variable de entorno necesaria (si aplica).
     * ¡Haz clic en "Deploy!"!
 
