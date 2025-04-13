@@ -29,20 +29,18 @@ def filtrar_data(data, opciones_seleccionadas):
 
 st.title("OSINT resources")
 
-ruta_del_fichero =  "data/osintToolsData.json"
+ruta_del_fichero = "data/osintToolsData.json"
 data_completa = get_data(ruta_del_fichero)
 
 if data_completa:
-    # Extraer todas las posibles opciones de "input_types" para el multiselect
-    all_input_types = set()
-    for registro in data_completa.values():
-        if "input_types" in registro:
-            all_input_types.update(registro["input_types"])
-    opciones_disponibles = sorted(list(all_input_types))
+    # Crear una lista única de input_types eliminando duplicados
+    data_filtered = sorted(
+        {input_type for registro in data_completa.values() if "input_types" in registro for input_type in registro["input_types"]}
+    )
 
     opciones_seleccionadas = st.multiselect(
         "Filtrar por el input:",
-        opciones_disponibles,
+        data_filtered,
     )
 
     data_filtrada = filtrar_data(data_completa, opciones_seleccionadas)
@@ -52,8 +50,8 @@ if data_completa:
     elif not data_filtrada:
         st.info("No se encontraron herramientas que coincidan con los filtros seleccionados.")
     else:
-        st.subheader("Herramientas encontadas:")
-        st.write(f"Número de resultados mostrados: **{len(data_filtrada)}**")  # Añadimos el contador aquí
+        st.subheader("Herramientas encontradas:")
+        st.write(f"Número de resultados mostrados: **{len(data_filtrada)}**")
         for registro_nombre, registro_data in data_filtrada.items():
             with st.expander(f"**{registro_nombre}**", expanded=True):
                 st.write(f"**Descripción:** {registro_data.get('descripcion', 'No disponible')}")
