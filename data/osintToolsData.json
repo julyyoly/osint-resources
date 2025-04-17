@@ -306,5 +306,208 @@
         "categoria": "herramientas",
         "input_types": ["email","teléfono"],
         "output_types": ["información personal"]
+    },
+    "chatwatch": {
+        "descripcion": "Herramineta para busqueda monitorizar actividad de whatsapp",
+        "url": "https://chatwatch.net",
+        "categoria": "herramientas",
+        "input_types": ["teléfono"],
+        "output_types": ["actividad whatsapp"]
+    },
+    "WhatsApp OSINT Tool": {
+        "descripcion": "Herramineta para busqueda monitorizar actividad de whatsapp",
+        "url": "https://github.com/jasperan/whatsapp-osintt",
+        "categoria": "herramientas",
+        "input_types": ["usuario whatsapp"],
+        "output_types": ["actividad"] 
+    },
+    "nitter": {
+        "descripcion": "Herramineta para busqueda de tweets y usuarios de X",
+        "url": "https://nitter.privacydev.net",
+        "categoria": "social data",
+        "input_types": ["usuario twitter"],
+        "output_types": ["tweets", "usuarios"] 
+    },
+    "Forensically": {
+        "descripcion": "Herramineta para análisis de imágenes",
+        "url": "https://29a.ch/photo-forensics",
+        "categoria": "herramientas",
+        "input_types": ["imagen"],
+        "output_types": ["metadatos", "información adicional"] 
+    },
+    "FOCA": {
+        "descripcion": "Herramineta para obtener metadatos de documentos",
+        "url": "https://github.com/ElevenPaths/FOCA",
+        "categoria": "herramientas",
+        "input_types": ["dominio","documento"],
+        "output_types": ["metadatos", "información adicional"] 
+    },
+    "FotoForensiocs": {
+        "descripcion": "Herramineta para análisis de imágenes",
+        "url": "https://fotoforensics.com",
+        "categoria": "herramientas",
+        "input_types": ["imagen"],
+        "output_types": ["metadatos", "información adicional"] 
+    },
+    "Yandex": {
+        "descripcion": "Buscador alternativo a Google",
+        "url": "https://yandex.com/",
+        "categoria": "buscadores",
+        "input_types": ["n/a"],
+        "output_types": ["resaultados de búsqueda"] 
+    },
+    "Search by Image": {
+        "descripcion": "Buscador por imagen",
+        "url": "https://addons.mozilla.org/en-US/firefox/addon/search_by_image/",
+        "categoria": "extensiones",
+        "input_types": ["imagen"],
+        "output_types": ["resaultados de búsqueda"] 
+    },
+    "Ahmia": {
+        "descripcion": "Buscador de la deep web",
+        "url": "https://ahmia.fi/",
+        "categoria": "buscadores",
+        "input_types": ["n/a"],
+        "output_types": ["resaultados de búsqueda"] 
+    },
+    "Torch": {
+        "descripcion": "Buscador de la deep web",
+        "url": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion",
+        "categoria": "buscadores",
+        "input_types": ["n/a"],
+        "output_types": ["resaultados de búsqueda"] 
+    },
+    "Nameck_k": {
+        "descripcion": "Buscador de la deep web",
+        "url": "https://namechk.com/",
+        "categoria": "social data",
+        "input_types": ["usuario"],
+        "output_types": ["redes sociales activas"] 
+    },
+    "cansys": {
+        "descripcion": "Buscador de dispositivos conectados a internet",
+        "url": "https://search.censys.io/",
+        "categoria": "infraestructura",
+        "input_types": ["IP", "dominio", "hostname"],
+        "output_types": ["hosts", "IP","puertos abiertos", "subdominios","hosts","certificados SSL"] 
+    },
+    "ZoomEy": {
+        "descripcion": "Buscador de dispositivos conectados a internet",
+        "url": "https://www.zoomeye.ai/",
+        "categoria": "infraestructura",
+        "input_types": ["IP", "dominio", "hostname"],
+        "output_types": ["hosts", "IP","puertos abiertos", "subdominios","hosts","certificados SSL"] 
+    },
+    "Viewdns": {
+        "descripcion": "Herramienta onlaine para búsqueda de información de dominios",
+        "url": "https://viewdns.info/",
+        "categoria": "infraestructura",
+        "input_types": ["IP", "dominio", "url", "dirección MAC"],
+        "output_types": ["información adicional"] 
+    },
+    "Complete DNS": {
+        "descripcion": "Herramienta onlaine para búsqueda de información de dominios",
+        "url": "https://completedns.com",
+        "categoria": "infraestructura",
+        "input_types": ["dominio"],
+        "output_types": ["información adicional"] 
+    },
+    "whoisology": {
+        "descripcion": "Herramienta onlaine para búsqueda de información de dominios",
+        "url": "https://whoisology.com",
+        "categoria": "infraestructura",
+        "input_types": ["dominio","emai"],
+        "output_types": ["información adicional"] 
+    },
+    "IPVOID": {
+        "descripcion": "Herramienta onlaine para búsqueda de información de dominios",
+        "url": "https://www.ipvoid.com/",
+        "categoria": "infraestructura",
+        "input_types": ["dominio","IP", "url"],
+        "output_types": ["información adicional"] 
+    },
+    "URLVOID": {
+        "descripcion": "Verificacion de reputación de paginas web",
+        "url": "https://www.urlvoid.com",
+        "categoria": "infraestructura",
+        "input_types": ["url"],
+        "output_types": ["información adicional"] 
+    },
+    "Virus total": {
+        "descripcion": "Detección de malware y análisis de archivos",
+        "url": "https://www.virustotal.com",
+        "categoria": "herramientas",
+        "input_types": ["url","archivo"],
+        "output_types": ["información adicional"] 
+    },
+    "Hybrid analysis": {
+        "descripcion": "Detección de malware y análisis de archivos",
+        "url": "https://www.hybrid-analysis.com/",
+        "categoria": "herramientas",
+        "input_types": ["url","archivo"],
+        "output_types": ["información adicional"] 
+    },
+    "RSS.app": {
+        "descripcion": "Monitorización de redes sociales",
+        "url": "https://rss.app/",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
+    },
+    "SSL Shopper": {
+        "descripcion": "Información de certificados SSL",
+        "url": "https://www.sslshopper.com/ssl-checker.html",
+        "categoria": "infraestructura",
+        "input_types": ["dominio"],
+        "output_types": ["información adicional"] 
+    },
+    "SSL server test": {
+        "descripcion": "Información de certificados SSL",
+        "url": "https://www.ssllabs.com/ssltest/",
+        "categoria": "infraestructura",
+        "input_types": ["dominio"],
+        "output_types": ["información adicional"] 
+    },
+    "urlscan": {
+        "descripcion": "Información de direcciones URL",
+        "url": "https://urlscan.io",
+        "categoria": "infraestructura",
+        "input_types": ["url"],
+        "output_types": ["información adicional"] 
+    },
+    "browserling": {
+        "descripcion": "Sandbox para prueba de direcciones URL",
+        "url": "https://www.browserling.com",        
+        "categoria": "herramientas",
+        "input_types": ["url"],
+        "output_types": ["información adicional"] 
+    },
+    "openSquad": {
+        "descripcion": "Identificación de dominios fraudulentos",
+        "url": "https://opensquat.com/",        
+        "categoria": "herramientas",
+        "input_types": ["dominio"],
+        "output_types": ["docminios paracidos registrasdos"] 
+    },
+    "Anyrun": {
+        "descripcion": "Sandbox para prueba de archivos",
+        "url": "https://any.run/",        
+        "categoria": "herramientas",
+        "input_types": ["archivo"],
+        "output_types": ["información adicional"] 
+    },
+    "Messageheader": {
+        "descripcion": "Análisis de cabeceras de correos electrónicos",
+        "url": "https://toolbox.googleapps.com/apps/messageheader/",        
+        "categoria": "herramientas",
+        "input_types": ["email header"],
+        "output_types": ["información adicional"] 
+    },
+    "Email Header Analyzer": {
+        "descripcion": "Análisis de cabeceras de correos electrónicos",
+        "url": "https://mxtoolbox.com/EmailHeaders.aspx",        
+        "categoria": "herramientas",
+        "input_types": ["email header"],
+        "output_types": ["información adicional"] 
     }
 }
