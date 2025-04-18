@@ -509,5 +509,215 @@
         "categoria": "herramientas",
         "input_types": ["email header"],
         "output_types": ["información adicional"] 
+    },
+    "Birdhunt": {
+        "descripcion": "Obtencion de post de X según la ubicación",
+        "url": "https://birdhunt.huntintel.io/",        
+        "categoria": "social data",
+        "input_types": ["ubicación","hashtag"],
+        "output_types": ["posts"] 
+    },
+    "onemilliontweetmap": {
+        "descripcion": "Obtencion de post de X según la ubicación",
+        "url": "https://onemilliontweetmap.com",        
+        "categoria": "social data",
+        "input_types": ["ubicación","hashtag","usuario"],
+        "output_types": ["posts"] 
+    },
+    "Advangle": {
+        "descripcion": "Generador de google dorks",
+        "url": "http://advangle.com/",        
+        "categoria": "buscadores",
+        "input_types": ["parametros"],
+        "output_types": ["consulta"] 
+    },
+    "Google Alerts": {
+        "descripcion": "Alertas de google",
+        "url": "https://www.google.com/alerts",        
+        "categoria": "monitorización",
+        "input_types": ["consulta"],
+        "output_types": ["alerta"] 
+    },
+    "OpenStreetMap": {
+        "descripcion": "Alternativa a Google Maps",
+        "url": "https://www.openstreetmap.org​",        
+        "categoria": "mapas",
+        "input_types": ["ubicación"],
+        "output_types": ["información adicional"] 
+    },
+    "Instant Street View": {
+        "descripcion": "Alternativa a streetview",
+        "url": "https://www.instantstreetview.com​​",        
+        "categoria": "mapas",
+        "input_types": ["ubicación"],
+        "output_types": ["información adicional"] 
+    },
+    "InVID": {
+        "descripcion": "Herramineta para análisis de videos",
+        "url": "https://www.invid-project.eu/​​",        
+        "categoria": "herramientas",
+        "input_types": ["video"],
+        "output_types": ["información adicional"] 
+    },
+    "ExifTool": {
+        "descripcion": "Herramineta para análisis de imágenes",
+        "url": "https://exiftool.org/​​",        
+        "categoria": "herramientas",
+        "input_types": ["imagen"],
+        "output_types": ["metadatos"] 
+    },
+    "Wolfram Language": {
+        "descripcion": "Herramineta para la identificación de objetos",
+        "url": "https://www.wolfram.com​​",        
+        "categoria": "herramientas",
+        "input_types": ["imagen","video"],
+        "output_types": ["categoria"] 
+    },
+    "Argus": {
+        "descripcion": "Herramineta para la obtención de información",
+        "url": "https://github.com/jasonxtn/Argus​​",        
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"] 
+    },
+    "DAIXIN Team": {
+        "descripcion": "Repositorio de brechas de datos",
+        "url": "http://7ukmkdtyxdkdivtjad57klqnd3kdsmq6tp45rrsxqnu76zzv3jvitlqd.onion/​​",        
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["data breaches"] 
+    },
+    "facebook-533m": {
+        "descripcion": "Descarga de los datos de la brecha de datos de facebook (2021)",
+        "url": "https://github.com/davidfegyver/facebook-533m​​",        
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["data breaches"] 
+    },
+    "IPQS": {
+        "descripcion": "Plataforma de detección de fraude",
+        "url": "https://www.ipqualityscore.com",        
+        "categoria": "herramientas",
+        "input_types": ["email","teléfono","url"],
+        "output_types": ["score","propietario","información adicional"] 
+    },
+    "SEON": {
+        "descripcion": "Plataforma de detección de fraude",
+        "url": "https://seon.io/",        
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"] 
+    },
+    "BUZZMONITOR": {
+        "descripcion": "Plataforma de monitorización de redes sociales",
+        "url": "https://getbuzzmonitor.com/es/",        
+        "categoria": "monitorización",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"] 
+    },
+    "Social-Media-OSINT-Tools-Collection": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://github.com/osintambition/Social-Media-OSINT-Tools-Collection?tab=readme-ov-file",        
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
+    },
+    "mention": {
+        "descripcion": "Plataforma de monitorización de redes sociales",
+        "url": "https://mention.com/",        
+        "categoria": "monitorización",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"] 
+    },
+    "twilert": {
+        "descripcion": "Plataforma de monitorización de redes sociales",
+        "url": "https://twilert.com/",        
+        "categoria": "monitorización",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"] 
+    },
+    "Hoaxy2": {
+        "descripcion": "Plataforma para visualizar de forma gráfica la información de redes sociales",
+        "url": "https://hoaxy.osome.iu.edu/",        
+        "categoria": "monitorización",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"] 
+    },
+    "ImgOps": {
+        "descripcion": "Repositorio de herramistas para trabajar con imágenes",
+        "url": "https://imgops.com",        
+        "categoria": "herramientas",
+        "input_types": ["imagen","url"],
+        "output_types": ["información adicional"] 
+    },
+    "Osgint": {
+        "descripcion": "Obtención de datos de github",
+        "url": "https://github.com/hippiiee/osgintm",        
+        "categoria": "herramientas",
+        "input_types": ["usuario","email"],
+        "output_types": ["usuario","nombre","repositorios","seguidores","email"] 
+    },
+    "crt.sh": {
+        "descripcion": "Obtención de certificados SSL",
+        "url": "https://crt.sh",        
+        "categoria": "infraestructura",
+        "input_types": ["dominio"],
+        "output_types": ["hosts","issuer","notBefore","notAfter","serialNumber","SHA1 Fingerprint","SHA256 Fingerprint"] 
+    },
+    "Hurricane electric": {
+        "descripcion": "Información sobre direcciones IP",
+        "url": "https://bgp.he.net/",        
+        "categoria": "infraestructura",
+        "input_types": ["IP"],
+        "output_types": ["información adicional"] 
+    },
+    "Team Cymru IP to ASN Lookup v1.0": {
+        "descripcion": "Información sobre direcciones IP",
+        "url": "https://asn.cymru.com/",        
+        "categoria": "infraestructura",
+        "input_types": ["IP"],
+        "output_types": ["información adicional"] 
+    },
+    "Open Source Intelligence (OSINT) Tools & Resources": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://osint.link/",        
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
+    },
+    "ciberpatrulla": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://ciberpatrulla.com/links/",        
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
+    },
+    "visualping": {
+        "descripcion": "Monitorización de paginas web",
+        "url": "https://visualping.io/",        
+        "categoria": "monitorización",
+        "input_types": ["url"],
+        "output_types": ["n/a"] 
+    },
+    "bitcoinwhoswho": {
+        "descripcion": "Monitorización de billeteras de bitcoin",
+        "url": "https://www.bitcoinwhoswho.com/",        
+        "categoria": "monitorización",
+        "input_types": ["wallet"],
+        "output_types": ["scam alert","transacciones","información adicional"] 
+    },
+    "SaveGram": {
+        "descripcion": "Descarga de imágenes de instagram",
+        "url": "https://savegram.app/en",        
+        "categoria": "social data",
+        "input_types": ["cuenta instagram"],
+        "output_types": ["imagenes","videos","Reels", "Stories"] 
+    },
+    "idcrawl": {
+        "descripcion": "Busqueda de datos personales",
+        "url": "https://www.idcrawl.com",        
+        "categoria": "social data",
+        "input_types": ["nombre","apellido"],
+        "output_types": ["información personal"] 
     }
 }
