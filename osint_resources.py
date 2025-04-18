@@ -13,19 +13,31 @@ def get_data(ruta_fichero):
         st.error(f"Error: El fichero '{ruta_fichero}' no contiene un JSON válido.")
         return {}
 
-def filtrar_data(data, opciones_seleccionadas):
-    """Filtra los datos según las opciones seleccionadas en 'input_types'."""
+def filtrar_data(data, opciones_seleccionadas, filtro_por):
+    """Filtra los datos según las opciones seleccionadas en el filtro especificado."""
     if not opciones_seleccionadas:
         return data  # Si no se selecciona nada, devuelve todos los datos
 
     resultados_filtrados = {}
     for registro_nombre, registro_data in data.items():
-        if "input_types" in registro_data:
-            # Comprueba si al menos una de las opciones seleccionadas está presente en input_types
-            if any(opcion in registro_data["input_types"] for opcion in opciones_seleccionadas):
+        if filtro_por in registro_data:
+            # Comprueba si al menos una de las opciones seleccionadas está presente en el filtro especificado
+            if any(opcion in registro_data[filtro_por] for opcion in opciones_seleccionadas):
                 resultados_filtrados[registro_nombre] = registro_data
     return resultados_filtrados
 
+def filtrar_por_categoria(data, categorias_seleccionadas):
+    """Filtra los datos según las categorías seleccionadas."""
+    if not categorias_seleccionadas:
+        return data  # Si no se selecciona nada, devuelve todos los datos
+
+    resultados_filtrados = {}
+    for registro_nombre, registro_data in data.items():
+        if "categoria" in registro_data:
+            # Comprueba si al menos una de las categorías seleccionadas está presente
+            if registro_data["categoria"] in categorias_seleccionadas:
+                resultados_filtrados[registro_nombre] = registro_data
+    return resultados_filtrados
 
 st.title("OSINT resources")
 
@@ -33,17 +45,26 @@ ruta_del_fichero = "data/osintToolsData.json"
 data_completa = get_data(ruta_del_fichero)
 
 if data_completa:
-    # Crear una lista única de input_types eliminando duplicados
-    data_filtered = sorted(
-        {input_type for registro in data_completa.values() if "input_types" in registro for input_type in registro["input_types"]}
+    # Selector para elegir el tipo de filtro en horizontal
+    filtro_por = st.radio(
+        "Selecciona el tipo de filtro:",
+        options=["input", "categoria"],
+        index=0,
+        horizontal=True  # Coloca el selector en horizontal
     )
 
-    opciones_seleccionadas = st.multiselect(
-        "Filtrar por el input:",
-        data_filtered,
-    )
-
-    data_filtrada = filtrar_data(data_completa, opciones_seleccionadas)
+    if filtro_por == "categoria":
+        opciones_seleccionadas = st.multiselect(
+            "Filtrar por categoría:",
+            sorted({registro.get("categoria", "No disponible") for registro in data_completa.values()}),
+        )
+        data_filtrada = filtrar_por_categoria(data_completa, opciones_seleccionadas)
+    else:
+        opciones_seleccionadas = st.multiselect(
+            "Filtrar por input:",
+            sorted({valor for registro in data_completa.values() if "input_types" in registro for valor in registro["input_types"]}),
+        )
+        data_filtrada = filtrar_data(data_completa, opciones_seleccionadas, "input_types")
 
     if not isinstance(data_filtrada, dict):
         st.error("Error: Los datos filtrados no son un diccionario.")
