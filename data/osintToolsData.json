@@ -114,7 +114,7 @@
     "Inteltechniques": {
         "descripcion": "Repositorio de herramientas OSINT",
         "url": "https://inteltechniques.com/tools/",
-        "categoria": "herramientas",
+        "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["herramientas"]
     },
@@ -163,7 +163,7 @@
     "OSINT Framework": {
         "descripcion": "Repositorio de herramientas OSINT",
         "url": "https://osintframework.com/",
-        "categoria": "herramientas",
+        "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["herramientas"]
     },
@@ -254,7 +254,7 @@
     "OSINT combine": {
         "descripcion": "Repositorio de herramientas OSINT",
         "url": "https://www.osintcombine.com/tools",
-        "categoria": "herramientas",
+        "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["herramientas"]
     },
@@ -296,7 +296,7 @@
     "osint.sh": {
         "descripcion": "Repositorio de herramientas de red",
         "url": "https://osint.sh",
-        "categoria": "herramientas",
+        "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["n/a"]
     },
@@ -618,7 +618,7 @@
     "Social-Media-OSINT-Tools-Collection": {
         "descripcion": "Repositorio de herramientas OSINT",
         "url": "https://github.com/osintambition/Social-Media-OSINT-Tools-Collection?tab=readme-ov-file",        
-        "categoria": "herramientas",
+        "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["n/a"] 
     },
@@ -644,7 +644,7 @@
         "output_types": ["información adicional"] 
     },
     "ImgOps": {
-        "descripcion": "Repositorio de herramistas para trabajar con imágenes",
+        "descripcion": "Repositorio de herramientas para trabajar con imágenes",
         "url": "https://imgops.com",        
         "categoria": "herramientas",
         "input_types": ["imagen","url"],
@@ -688,7 +688,7 @@
     "ciberpatrulla": {
         "descripcion": "Repositorio de herramientas OSINT",
         "url": "https://ciberpatrulla.com/links/",        
-        "categoria": "herramientas",
+        "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["n/a"] 
     },
@@ -719,5 +719,19 @@
         "categoria": "social data",
         "input_types": ["nombre","apellido"],
         "output_types": ["información personal"] 
+    },
+    "Cyber Detective's OSINT tools collection": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://github.com/cipher387/osint_stuff_tool_collection",        
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
+    },
+    "Dark Web Informer": {
+        "descripcion": "Repositorio de brechas de datos",
+        "url": "https://darkwebinformer.com/tag/data-breaches/",        
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
     }
 }
