@@ -94,7 +94,7 @@
         "descripcion": "Open Source Intelligence & Forensic Tools",
         "url": "https://intelx.io/tools",
         "categoria": "data breaches",
-        "input_types": ["dominio","URL", "email", "IP"],
+        "input_types": ["dominio","url", "email", "IP"],
         "output_types": ["data breaches"]
     },
     "SunsBase": {
@@ -733,5 +733,12 @@
         "categoria": "data breaches",
         "input_types": ["n/a"],
         "output_types": ["n/a"] 
+    },
+    "Dirección General de Tráfico": {
+        "descripcion": "Información sobre vehículos",
+        "url": "https://sede.dgt.gob.es/es/vehiculos/informacion-de-vehiculos/informe-de-un-vehiculo/",        
+        "categoria": "data breaches",
+        "input_types": ["matrícula"],
+        "output_types": ["información adicional"] 
     }
 }
