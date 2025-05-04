@@ -234,7 +234,7 @@
         "descripcion": "Búsqueda de información personal",
         "url": "https://lampyre.io",
         "categoria": "herramientas",
-        "input_types": ["emai","teléfono","usuario","IP","dominio","imágen","sanción"],
+        "input_types": ["email","teléfono","usuario","IP","dominio","imágen","sanción"],
         "output_types": ["redes sociales activas", "data breaches","reputación email","ubicación"]
     },
     "Export comments": {
@@ -416,7 +416,7 @@
         "descripcion": "Herramienta onlaine para búsqueda de información de dominios",
         "url": "https://whoisology.com",
         "categoria": "infraestructura",
-        "input_types": ["dominio","emai"],
+        "input_types": ["dominio","email"],
         "output_types": ["información adicional"] 
     },
     "IPVOID": {
