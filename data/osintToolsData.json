@@ -740,5 +740,12 @@
         "categoria": "data breaches",
         "input_types": ["matrícula"],
         "output_types": ["información adicional"] 
+    },
+    "Securiters Wiki": {
+        "descripcion": "Repositorio de herramientas OSINT y seguridad IT",
+        "url": "https://wiki.securiters.com/securiters-wiki",        
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
     }
 }
