@@ -652,9 +652,9 @@
     },
     "Osgint": {
         "descripcion": "Obtención de datos de github",
-        "url": "https://github.com/hippiiee/osgintm",        
+        "url": "https://github.com/hippiiee/osgint",        
         "categoria": "herramientas",
-        "input_types": ["usuario","email"],
+        "input_types": ["cuanta github","email"],
         "output_types": ["usuario","nombre","repositorios","seguidores","email"] 
     },
     "crt.sh": {
